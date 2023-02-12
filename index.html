@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2655.jpg?auto=format&h=200');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: 24px;
+            color: rgb(78, 78, 111);
+        }
+        .content {
+            text-align: center;
+            margin-top: 20px;
+        }
+        #result {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+         }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h2>Найди свою гиФФФку!!!</h2>
+    <button onclick="onSearch()">Искать</button>
+    <input type="text" id="userGiff">
+    <button onclick="onDelete()">Очистить</button>
+</div>
+<img src="" id="avatar"> 
+<div id="result"></div>
+<script src="./index.js"></script>    
+</body>
+</html>
